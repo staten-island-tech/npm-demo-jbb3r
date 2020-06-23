@@ -3,7 +3,6 @@ export const calc = {
         return x + y;
     },
 };
-export const DOMSelectors = {
-    header: document.querySelector
-}
-console.log(calc.add(2,6));
+/*export const DOMSelectors = {
+    header: document.querySelector(".header")
+}*/

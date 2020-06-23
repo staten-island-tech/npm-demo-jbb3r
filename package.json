@@ -1,15 +1,17 @@
 {
   "name": "npm-demo-jbb3r",
   "version": "1.0.0",
-  "description": "show my class stuff",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/staten-island-tech/npm-demo-jbb3r.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,10 +19,10 @@
   },
   "homepage": "https://github.com/staten-island-tech/npm-demo-jbb3r#readme",
   "dependencies": {
-    "aos": "^2.3.4",
-    "save": "^2.4.0"
+    "aos": "^2.3.4"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.9"
   }
 }
